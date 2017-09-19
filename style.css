@@ -45,6 +45,11 @@ p{
   padding:0;
   width:25%;
 }
+@media screen and (max:width 769px) {
+  #nav li{
+    width:100%;
+  }
+}
 
 #nav a:link, #nav a:visited{
   display:block;
