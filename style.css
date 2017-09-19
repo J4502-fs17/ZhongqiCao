@@ -28,12 +28,14 @@ p{
 
 
 
+
 #container{
   Width:95%;
   background-color:#d7d7af;
   margin: 0 auto;
   text-align: center;
-  font-family: 'Satisfy', cursive;
+  font-family:'Satisfy', cursive, "Times New Roman", serif;
+  font-size:0.8em;
 }
 
 #nav li{
