@@ -26,8 +26,10 @@ p{
   font-size: 15px;
 }
 
-
-
+.font{
+  font-family:'Satisfy', cursive;
+  font-size:0.8em;
+}
 
 #container{
   Width:95%;
