@@ -21,3 +21,13 @@ p{
   text-align: center;
   font-size: 15px;
 }
+
+#header{
+  color:black;
+  font-family:georgia, "Times New Roman", serif;
+  font-size:0.8em;
+  border-top:1px solid black;
+  border:1px 0px;
+  border-style:dotted;
+  border-color:black;
+}
