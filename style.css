@@ -36,6 +36,7 @@ p{
   Width:95%;
   background-color:#d7d7af;
   margin: 0 auto;
+  text-align: center;
 }
 
 #nav li{
@@ -72,9 +73,5 @@ p{
 }
 
 .imgcenter{
-  text-align: center;
-}
-
-.textcenter{
   text-align: center;
 }
