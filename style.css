@@ -6,6 +6,10 @@ h1{
   font-size: 50px;
 }
 
+body{
+  background-color: #d7d7af
+}
+
 h4{
   color:grey;
   font-family:Helvetica, Arial, sans-serif;
