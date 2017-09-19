@@ -44,6 +44,7 @@ p{
   padding:0;
   width:100%;
   display:block;
+  font-family:'Satisfy', cursive;
 }
 
 #nav a:link, #nav a:visited{
