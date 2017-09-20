@@ -47,7 +47,7 @@ p{
 }
 
 #nav a:link, #nav a:visited{
-  display:block;
+  display:incline-block;
   Color:#ffffff;
   background-color:#98bf21;
   font-weight: bold;
