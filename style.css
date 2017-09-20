@@ -42,12 +42,12 @@ p{
   margin:0 auto;
   padding:0;
   width:100%;
-  display:incline-block;
+  display:inline-block;
   font-family:'Satisfy', cursive;
 }
 
 #nav a:link, #nav a:visited{
-  display:incline-block;
+  display:inline-block;
   Color:#ffffff;
   background-color:#98bf21;
   font-weight: bold;
