@@ -33,7 +33,6 @@ p{
   background-color:#d7d7af;
   margin: 0 auto;
   text-align: center;
-  font-family:'Satisfy', cursive;
   font-size:0.8em;
 }
 
@@ -43,7 +42,6 @@ p{
   padding:0;
   width:100%;
   display:block;
-  font-family:'Satisfy', cursive;
 }
 
 #nav a:link, #nav a:visited{
@@ -54,7 +52,7 @@ p{
   text-align: center;
   text-decoration: none;
   padding:4px;
-  font-family:Helvetica, Arial, sans-serif;
+  font-family:'Satisfy', cursive;
 }
 
 #nav a:hover, #nav a:active{
