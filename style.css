@@ -27,14 +27,6 @@ p{
   flex:1;
 }
 
-#div{
-  flex: 1;
-  display: flex;
-}
-
-a{
- flex: 1;
-}
 
 
 img{
@@ -123,6 +115,7 @@ img{
       flex-direction: row-reverse;
       justify-content: flex-end;
 }
-  .text{
-    flex-grow: 2;
-  }
+    .text{
+      flex-grow: 2;
+    }
+}
