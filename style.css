@@ -27,7 +27,14 @@ p{
   flex:1;
 }
 
+a{
+  flex: 1;
+}
 
+#none{
+  display: flex;
+  flex: 1;
+}
 
 img{
   border-style: none;
