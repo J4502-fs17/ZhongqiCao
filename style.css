@@ -113,18 +113,49 @@ img{
   }
 
   @media (min-width: 600px) {
-  	#nav {
-  		flex-direction: row;
-  		justify-content: center;
-    }
-    .container {
-      flex-direction: row-reverse;
-      justify-content: flex-end;
-}
-    .text{
-      flex-grow: 2;
-    }
-    #none{
-      flex-flow: row nowrap;
-    }
-}
+    	#nav {
+    		flex-direction: row;
+    		justify-content: center;
+      }
+      .container {
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+  }
+
+      #none{
+        flex-flow: row nowrap;
+      }
+  }
+
+  @media screen and (min-width: 900px) {
+     #none {
+       display: grid;
+       grid-template-columns: 200px 1fr 1fr;
+       grid-gap: 20px;
+       grid-template-areas:
+           "a b";
+     }
+
+   #image {
+     width: 100%;
+     grid-area: a;
+   }
+
+  .profolio{
+     grid-area: b;
+   }
+
+
+
+ }
+
+ @media screen and (min-width:1200px) {
+    #none {
+      display: grid;
+      grid-template-columns: 200px 1fr 1fr 1fr;
+      grid-gap: 5px;
+      grid-template-areas:
+          "a b b"
+          ". . b"
+        }
+        }
