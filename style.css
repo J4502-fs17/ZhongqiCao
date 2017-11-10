@@ -42,6 +42,11 @@ img{
 
 }
 
+.menu-trigger{
+  order:1;
+  display:block;
+}
+
 #container{
   Width:95%;
   background-color:#d7d7af;
@@ -112,11 +117,18 @@ img{
   	flex-direction: column;
   }
 
+  #nav{
+    display:none;
+  }
+
   @media (min-width: 600px) {
     	#nav {
-    		flex-direction: row;
+        display:flex;
+        flex-direction: row;
     		justify-content: center;
       }
+
+    
       .container {
         flex-direction: row-reverse;
         justify-content: flex-end;
@@ -124,6 +136,10 @@ img{
 
       #none{
         flex-flow: row nowrap;
+      }
+
+      .menu-trigger{
+        display:none;
       }
   }
 
@@ -135,6 +151,8 @@ img{
        grid-template-areas:
            "a b";
      }
+     /*.menu-trigger{
+     display:none;*/
 
    #image {
      width: 100%;
@@ -145,7 +163,9 @@ img{
      grid-area: b;
    }
 
-
+   .menu-trigger{
+       order:1;
+     }
 
  }
 
